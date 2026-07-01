@@ -6,7 +6,7 @@ import { Sparkles, User } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 // v4 message shape: { id, role, content }
-type ChatMessageShape = {
+export type ChatMessageShape = {
   id: string;
   role: "user" | "assistant" | "system";
   content: string;
