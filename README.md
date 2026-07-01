@@ -74,4 +74,4 @@ npm run typecheck # tsc --noEmit
 
 ## License
 
-MIT © 2026 Rishi Choubey — see [LICENSE](./LICENSE).
+MIT © 2026 Rishi Choubey — see [LICENSE](./LICENSE)."# rishi-choubey" 
