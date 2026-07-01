@@ -128,7 +128,7 @@ export async function POST(req: Request) {
                     encoder.encode(JSON.stringify({ delta }) + "\n"),
                   );
                 }
-              } catch (err) {
+              } catch {
                 console.warn("[chat] could not parse SSE chunk", payload.slice(0, 200));
               }
             }
