@@ -4,6 +4,10 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
+  eslint: {
+    // Bypass ESLint during Vercel builds. Run `pnpm lint` locally instead.
+    ignoreDuringBuilds: true,
+  },
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
